@@ -1,4 +1,7 @@
 using namespace std;
+#include <emscripten/bind.h>
+#include <vector>
+#include <random>
 
 struct Cell {
     bool hasBomb    = false;
